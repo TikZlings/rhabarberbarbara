@@ -1,20 +1,36 @@
-% Inspired by this video: youtube.com/watch?v=gG62zay3kck
-
+% we will use beamer with
+% a 16:9 aspect ratio
 \documentclass[aspectratio=169]{beamer}
 
+% font and input encodings
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 
+% Fira Sans Light for the text
 \usepackage[sfdefault,light]{FiraSans}
 
+% since this is a tikzducks production,
+% we have to load the package :)
 \usepackage{tikzducks}
+
+% the graphics package to
+% include PDF assets
 \usepackage{graphicx}
 
+% disable navigation symbols, so
+% we end up with a blank screen
 \setbeamertemplate{navigation symbols}{}
 
 \begin{document}
+
+% no slide numbers
 \pagestyle{empty}
 
+% the following storyboard is inspired by
+% the following YouTube video:
+% youtube.com/watch?v=gG62zay3kck
+
+% title
 \begin{frame}{}
 \centering
 
@@ -26,6 +42,7 @@
 
 \end{frame}
 
+% just Barbara
 \begin{frame}{}
 
 \hspace{4.5cm}\begin{tikzpicture}[scale=2]
@@ -42,6 +59,7 @@
 
 \end{frame}
 
+% Barbara + text
 \begin{frame}{}
 
 \hspace{4.5cm}\begin{tikzpicture}[scale=2]
@@ -58,6 +76,7 @@
 
 \end{frame}
 
+% Barbara + cake + text
 \begin{frame}{}
 
 \hspace{4.5cm}\begin{tikzpicture}[scale=2]
@@ -76,6 +95,7 @@
 
 \end{frame}
 
+% Barbara + cake + text
 \begin{frame}{}
 
 \hspace{4.5cm}\begin{tikzpicture}[scale=2]
@@ -94,6 +114,7 @@
 
 \end{frame}
 
+% Barbara + balloon text
 \begin{frame}{}
 
 \vspace*{-1.01cm}
@@ -115,6 +136,7 @@
 
 \end{frame}
 
+% bar asset
 \begin{frame}{}
 
 \hspace{3cm}\includegraphics[scale=.25]{assets/bar}
@@ -125,6 +147,7 @@
 
 \end{frame}
 
+% bar asset + text
 \begin{frame}{}
 
 \hspace{3cm}\includegraphics[scale=.25]{assets/bar}
@@ -135,6 +158,7 @@
 
 \end{frame}
 
+% vikings
 \begin{frame}{}
 
 \hspace{4.5cm}\begin{tikzpicture}[scale=2]
@@ -169,6 +193,7 @@
 
 \end{frame}
 
+% vikings + text
 \begin{frame}{}
 
 \hspace{4.5cm}\begin{tikzpicture}[scale=2]
@@ -203,6 +228,7 @@
 
 \end{frame}
 
+% bar asset + text
 \begin{frame}{}
 
 \hspace{3cm}\includegraphics[scale=.25]{assets/bar}
@@ -213,6 +239,7 @@
 
 \end{frame}
 
+% Barbara + text
 \begin{frame}{}
 
 \hspace{4.5cm}\begin{tikzpicture}[scale=2]
@@ -231,6 +258,7 @@
 
 \end{frame}
 
+% Barbara + cake + text
 \begin{frame}{}
 
 \hspace{4.5cm}\begin{tikzpicture}[scale=2]
@@ -249,6 +277,7 @@
 
 \end{frame}
 
+% vikings + text
 \begin{frame}{}
 
 \hspace{4.5cm}\begin{tikzpicture}[scale=2]
@@ -283,6 +312,7 @@
 
 \end{frame}
 
+% vikings + beard text
 \begin{frame}{}
 
 \hspace{4.5cm}\begin{tikzpicture}[scale=2]
@@ -317,6 +347,7 @@
 
 \end{frame}
 
+% vikings + text
 \begin{frame}{}
 
 \hspace{4.5cm}\begin{tikzpicture}[scale=2]
@@ -351,6 +382,7 @@
 
 \end{frame}
 
+% vikings + beard text
 \begin{frame}{}
 
 \hspace{4.5cm}\begin{tikzpicture}[scale=2]
@@ -385,6 +417,7 @@
 
 \end{frame}
 
+% barber + text
 \begin{frame}{}
 
 \hspace{6cm}\begin{tikzpicture}[scale=2]
@@ -405,6 +438,7 @@
 
 \end{frame}
 
+% viking + beard text
 \begin{frame}{}
 
 \hspace{4.5cm}\begin{tikzpicture}[scale=2]
@@ -439,6 +473,7 @@
 
 \end{frame}
 
+% barber + text
 \begin{frame}{}
 
 \hspace{6cm}\begin{tikzpicture}[scale=2]
@@ -459,6 +494,7 @@
 
 \end{frame}
 
+% bar asset
 \begin{frame}{}
 
 \hspace{3cm}\includegraphics[scale=.25]{assets/bar}
@@ -469,6 +505,7 @@
 
 \end{frame}
 
+% Barbara + text
 \begin{frame}{}
 
 \hspace{4.5cm}\begin{tikzpicture}[scale=2]
@@ -487,6 +524,7 @@
 
 \end{frame}
 
+% Barbara + cake + text
 \begin{frame}{}
 
 \hspace{4.5cm}\begin{tikzpicture}[scale=2]
@@ -505,6 +543,7 @@
 
 \end{frame}
 
+% barber + beer asset
 \begin{frame}{}
 
 \vspace*{-.2cm}
@@ -529,6 +568,7 @@
 
 \end{frame}
 
+% barber + beer text
 \begin{frame}{}
 
 \vspace*{-.2cm}
@@ -548,11 +588,12 @@
 \end{tikzpicture}
 
 \begin{tikzpicture}[overlay]
-\node at  (3,4) {Bier};
+\node at  (3,4) {\Large Bier};
 \end{tikzpicture}
 
 \end{frame}
 
+% barber + text
 \begin{frame}{}
 
 \vspace*{-.2cm}
@@ -577,6 +618,7 @@
 
 \end{frame}
 
+% bar asset + Bärbel
 \begin{frame}{}
 
 \hspace{3cm}\includegraphics[scale=.25]{assets/bar}
@@ -596,6 +638,7 @@
 
 \end{frame}
 
+% barber + beer + text
 \begin{frame}{}
 
 \vspace*{-.2cm}
@@ -620,6 +663,7 @@
 
 \end{frame}
 
+% bar asset + Bärbel + text
 \begin{frame}{}
 
 \hspace{3cm}\includegraphics[scale=.25]{assets/bar}
@@ -634,11 +678,12 @@
 \end{tikzpicture}
 
 \begin{tikzpicture}[overlay]
-\node at (7,5) {\LARGE Rhabarberbarbarabarbarbarenbartbarbierbierbar};
+\node at (7,5.5) {\LARGE Rhabarberbarbarabarbarbarenbartbarbierbierbar};
 \end{tikzpicture}
 
 \end{frame}
 
+% bar asset + Bärbel + text
 \begin{frame}{}
 
 \hspace{3cm}\includegraphics[scale=.25]{assets/bar}
@@ -658,6 +703,7 @@
 
 \end{frame}
 
+% vikings + text
 \begin{frame}{}
 
 \hspace{4.5cm}\begin{tikzpicture}[scale=2]
@@ -692,6 +738,7 @@
 
 \end{frame}
 
+% barber + text
 \begin{frame}{}
 
 \vspace*{-.2cm}
@@ -716,6 +763,7 @@
 
 \end{frame} 
 
+% bar asset + Bärbel + text
 \begin{frame}{}
 
 \hspace{3cm}\includegraphics[scale=.25]{assets/bar}
@@ -730,11 +778,12 @@
 \end{tikzpicture}
 
 \begin{tikzpicture}[overlay]
-\node at (7,5) {\LARGE Rhabarberbarbarabarbarbarenbartbarbierbierbarbärbel};
+\node at (7,5.5) {\LARGE Rhabarberbarbarabarbarbarenbartbarbierbierbarbärbel};
 \end{tikzpicture}
 
 \end{frame}
 
+% bar asset + text
 \begin{frame}{}
 
 \hspace{3cm}\includegraphics[scale=.25]{assets/bar}
@@ -744,11 +793,12 @@
 \end{tikzpicture}
 
 \begin{tikzpicture}[overlay]
-\node at (7,5) {\LARGE Rhabarberbarbarabar};
+\node at (7,5.5) {\LARGE Rhabarberbarbarabar};
 \end{tikzpicture}
 
 \end{frame}
 
+% Barbara + text
 \begin{frame}{}
 
 \hspace{4.5cm}\begin{tikzpicture}[scale=2]
@@ -767,6 +817,7 @@
 
 \end{frame}
 
+% Barbara + cake + text
 \begin{frame}{}
 
 \hspace{4.5cm}\begin{tikzpicture}[scale=2]
@@ -785,6 +836,7 @@
 
 \end{frame}
 
+% barber + beer + text
 \begin{frame}{}
 
 \vspace*{-.2cm}
@@ -809,11 +861,14 @@
 
 \end{frame} 
 
+% cheers!
 \begin{frame}{}
 \centering\Huge
 
 Prost!
 
 \end{frame}
+
+% woo
 
 \end{document}
